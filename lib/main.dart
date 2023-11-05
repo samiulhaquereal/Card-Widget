@@ -28,6 +28,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Card(
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
           elevation: 20,
           color: Colors.redAccent,
           child: Padding(
